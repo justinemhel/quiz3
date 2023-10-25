@@ -1,0 +1,78 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    padding: 5px;
+    flex-direction: row;
+    display: flex;
+    border-radius: 5px;
+
+}
+div{
+    color: aqua;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+a:hover{
+    background-color: aqua;
+    border: 2px solid brown;
+    padding: 15px;
+}
+.mmsu{
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+a{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: solid 2px;
+    border-color: brown;
+    margin: 15px;
+    color: wheat;
+    text-decoration: none;
+}
+h2{
+    text-align: center;
+    background-color:green;
+    color: white;
+}
+h1{
+    text-align: center;
+    background-color: green;
+    color: aqua;
+}
+.a1{
+    padding: 8px;
+    border: 10px solid yellowgreen;
+    flex-direction: column-reverse;
+}
+.a2{
+    padding: 8px;
+    border: 10px solid yellowgreen;
+    flex-direction: column-reverse;
+}
+section{
+    background-color: green;
+   
+}
+body{
+    background-color: rgb(224, 218, 218);
+}
+.table{
+    padding: 8px;
+    border: 10px solid yellowgreen;
+    background-color: green;
+}
+footer{
+    text-align: center;
+}
